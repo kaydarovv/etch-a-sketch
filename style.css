@@ -3,15 +3,27 @@
 }
 
 body {
+    min-height: 100vh;
+    margin: 0px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+#slider{
+    margin-right: 30px;
+    min-width: 200px;
 }
 
 #grid {
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid red;
+    border: 5px solid red;
     width: 500px;
     height: 500px;
 }
